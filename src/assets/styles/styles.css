@@ -1,0 +1,33 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+h4{
+  margin: 5px 0;
+}
+.info--container h4 {
+  margin: 10px 0;
+}
+.infowindow--image {
+  height: 50px;
+  width: 50px;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto;
+}
+.infowindow--time.closed {
+  background: #f88081;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 10px;
+}
+.infowindow--time.open {
+  background: #c9e9c8;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 10px;
+}
