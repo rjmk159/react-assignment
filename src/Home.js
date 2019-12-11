@@ -49,5 +49,7 @@ class App extends Component {
   }
 }
 export default GoogleApiWrapper({
+  // apiKey: process.env.REACT_APP_MAP_KEY
   apiKey: "AIzaSyCdWkEeqRMNnTrlSmKnCo1WFY7xo6-nKw8"
+
 })(App);
